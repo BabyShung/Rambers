@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E67E88A31B64932200405A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88A21B64932200405A7C /* AppDelegate.swift */; };
 		E67E88A81B64932200405A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67E88A61B64932200405A7C /* Main.storyboard */; };
 		E67E88AA1B64932200405A7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67E88A91B64932200405A7C /* Images.xcassets */; };
 		E67E88AD1B64932200405A7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E67E88AB1B64932200405A7C /* LaunchScreen.xib */; };
 		E67E88B91B64932200405A7C /* RambersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88B81B64932200405A7C /* RambersTests.swift */; };
 		E67E88C31B64960E00405A7C /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E88C21B64960E00405A7C /* Bond.framework */; };
+		E67E88CD1B65259800405A7C /* RandomNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88CC1B65259800405A7C /* RandomNumbersViewController.swift */; };
+		E67E88DE1B65668600405A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88D91B65668600405A7C /* AppDelegate.swift */; };
+		E67E88DF1B65668600405A7C /* RandomNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88DA1B65668600405A7C /* RandomNumbers.swift */; };
+		E67E88E01B65668600405A7C /* RandomNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88DB1B65668600405A7C /* RandomNumberViewModel.swift */; };
+		E67E88E11B65668600405A7C /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88DC1B65668600405A7C /* UIButton+Theme.swift */; };
+		E67E88E21B65668600405A7C /* ZHTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88DD1B65668600405A7C /* ZHTimer.swift */; };
+		E67E88E51B658C0500405A7C /* UISegmentedControl+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88E41B658C0500405A7C /* UISegmentedControl+Values.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +34,6 @@
 /* Begin PBXFileReference section */
 		E67E889D1B64932200405A7C /* Rambers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rambers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67E88A11B64932200405A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E67E88A21B64932200405A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E67E88A71B64932200405A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E67E88A91B64932200405A7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E67E88AC1B64932200405A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -36,6 +41,13 @@
 		E67E88B71B64932200405A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E67E88B81B64932200405A7C /* RambersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RambersTests.swift; sourceTree = "<group>"; };
 		E67E88C21B64960E00405A7C /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
+		E67E88CC1B65259800405A7C /* RandomNumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomNumbersViewController.swift; path = Classes/RandomNumbersViewController.swift; sourceTree = "<group>"; };
+		E67E88D91B65668600405A7C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		E67E88DA1B65668600405A7C /* RandomNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomNumbers.swift; path = Classes/RandomNumbers.swift; sourceTree = "<group>"; };
+		E67E88DB1B65668600405A7C /* RandomNumberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomNumberViewModel.swift; path = Classes/RandomNumberViewModel.swift; sourceTree = "<group>"; };
+		E67E88DC1B65668600405A7C /* UIButton+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Theme.swift"; path = "Classes/UIButton+Theme.swift"; sourceTree = "<group>"; };
+		E67E88DD1B65668600405A7C /* ZHTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZHTimer.swift; path = Classes/ZHTimer.swift; sourceTree = "<group>"; };
+		E67E88E41B658C0500405A7C /* UISegmentedControl+Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Values.swift"; path = "Classes/UISegmentedControl+Values.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,9 @@
 		E67E889F1B64932200405A7C /* Rambers */ = {
 			isa = PBXGroup;
 			children = (
+				E67E88E31B65669E00405A7C /* Models */,
+				E67E88DB1B65668600405A7C /* RandomNumberViewModel.swift */,
+				E67E88CC1B65259800405A7C /* RandomNumbersViewController.swift */,
 				E67E88A61B64932200405A7C /* Main.storyboard */,
 				E67E88A01B64932200405A7C /* Supporting Files */,
 			);
@@ -88,7 +103,7 @@
 		E67E88A01B64932200405A7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E67E88A21B64932200405A7C /* AppDelegate.swift */,
+				E67E88D91B65668600405A7C /* AppDelegate.swift */,
 				E67E88A91B64932200405A7C /* Images.xcassets */,
 				E67E88A11B64932200405A7C /* Info.plist */,
 				E67E88AB1B64932200405A7C /* LaunchScreen.xib */,
@@ -119,6 +134,17 @@
 				E67E88C21B64960E00405A7C /* Bond.framework */,
 			);
 			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		E67E88E31B65669E00405A7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E67E88DA1B65668600405A7C /* RandomNumbers.swift */,
+				E67E88DD1B65668600405A7C /* ZHTimer.swift */,
+				E67E88DC1B65668600405A7C /* UIButton+Theme.swift */,
+				E67E88E41B658C0500405A7C /* UISegmentedControl+Values.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E67E88A31B64932200405A7C /* AppDelegate.swift in Sources */,
+				E67E88E01B65668600405A7C /* RandomNumberViewModel.swift in Sources */,
+				E67E88DF1B65668600405A7C /* RandomNumbers.swift in Sources */,
+				E67E88E51B658C0500405A7C /* UISegmentedControl+Values.swift in Sources */,
+				E67E88DE1B65668600405A7C /* AppDelegate.swift in Sources */,
+				E67E88CD1B65259800405A7C /* RandomNumbersViewController.swift in Sources */,
+				E67E88E11B65668600405A7C /* UIButton+Theme.swift in Sources */,
+				E67E88E21B65668600405A7C /* ZHTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
