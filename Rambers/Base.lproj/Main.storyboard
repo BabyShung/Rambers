@@ -104,9 +104,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="Dy4-3g-abA">
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="3xQ-S1-9Oe"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Dy4-3g-abA"/>
                     <connections>
                         <outlet property="averageTimeLabel" destination="uXQ-WJ-yQM" id="nFo-L7-JyW"/>
                         <outlet property="digitsSegmentedControl" destination="VhO-XU-hKd" id="S8H-Ld-OCp"/>
@@ -136,7 +134,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCN-Ks-Ik5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565" y="1108"/>
+            <point key="canvasLocation" x="542" y="447"/>
         </scene>
     </scenes>
 </document>

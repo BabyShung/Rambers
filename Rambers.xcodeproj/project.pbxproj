@@ -19,6 +19,7 @@
 		E67E88E11B65668600405A7C /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88DC1B65668600405A7C /* UIButton+Theme.swift */; };
 		E67E88E21B65668600405A7C /* ZHTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88DD1B65668600405A7C /* ZHTimer.swift */; };
 		E67E88E51B658C0500405A7C /* UISegmentedControl+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88E41B658C0500405A7C /* UISegmentedControl+Values.swift */; };
+		E67E88E71B65C28800405A7C /* RandomNumberViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E88E61B65C28800405A7C /* RandomNumberViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E67E88DC1B65668600405A7C /* UIButton+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Theme.swift"; path = "Classes/UIButton+Theme.swift"; sourceTree = "<group>"; };
 		E67E88DD1B65668600405A7C /* ZHTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZHTimer.swift; path = Classes/ZHTimer.swift; sourceTree = "<group>"; };
 		E67E88E41B658C0500405A7C /* UISegmentedControl+Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Values.swift"; path = "Classes/UISegmentedControl+Values.swift"; sourceTree = "<group>"; };
+		E67E88E61B65C28800405A7C /* RandomNumberViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				E67E88B81B64932200405A7C /* RambersTests.swift */,
 				E67E88B61B64932200405A7C /* Supporting Files */,
+				E67E88E61B65C28800405A7C /* RandomNumberViewModelTests.swift */,
 			);
 			path = RambersTests;
 			sourceTree = SOURCE_ROOT;
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67E88E71B65C28800405A7C /* RandomNumberViewModelTests.swift in Sources */,
 				E67E88B91B64932200405A7C /* RambersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
