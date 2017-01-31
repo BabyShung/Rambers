@@ -2,26 +2,22 @@
 //  RandomNumberViewModelTests.swift
 //  Rambers
 //
-//  Created by Hao Zheng on 7/26/15.
-//  Copyright (c) 2015 Alarm.com. All rights reserved.
+//  Created by Hao Zheng on 7/27/15.
+//  Copyright © 2015 Alarm.com. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class RandomNumberViewModelTests: XCTestCase {
+/** RandomNumberViewModelTests Class
 
-    override func setUp() {
-        super.setUp()
-        
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
+*/
+class RandomNumberViewModelTests : XCTestCase {
 
     func testExample() {
-        XCTAssert(true, "Pass")
+        // This is an example of a functional test case.
+        XCTAssertTrue(true, "Pass")
+        
         
     }
 
@@ -32,4 +28,14 @@ class RandomNumberViewModelTests: XCTestCase {
         }
     }
 
+    // MARK: - Setup
+    override func setUp() {
+        super.setUp()
+        // Put Setup code here. This method is called before the invocation of each test method in the class.
+    }
+
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
 }
